@@ -1,27 +1,11 @@
-<head>
-    <title>Mobile Developer Page</title>
-    <link href="../style.css" rel="stylesheet">
-</head>
+
 <!DOCTYPE html>
 <html>
-    <div class="topnav">
-    <a href="../index.html">Home</a>
-    <div class="dropdown">
-        <a class="active" href="../jobs.html" class="dropbtn">Jobs </a>
-        <div class="dropdown-content">
-        <a href="../Jobs/softwareEngineer.html">Software Engineer</a>
-        <a href="../Jobs/cybersecuritySpecialist.html">Cybersecurity Specialist</a>
-        <a href="../Jobs/gameDeveloper.html">Game Developer</a>
-        <a href="../Jobs/mobileAppDeveloper.html">Mobile App Developer</a>
-        </div><!-- 4 jobs-->
-
-    </div><!-- dropdown -->
-    <a href="../learn.html">Learn</a>
-    <a href="../prepare.html">Prepare</a>
-    <a href="../why.html">Why</a>
-    <a href="../csDescription.html">CS Description</a>
-    </div>
-
+    <head>
+        <title>Mobile Developer Page</title>
+        <div id="navbar"></div>
+        <link href="/style.css" rel="stylesheet">
+    </head>
     <body>
 
         <h1><center>Mobile App Developer</center></h1>
@@ -71,4 +55,5 @@
     </div>
     </body>
 </html>
-    
+
+<script src="/nav.js" onload="setActive('Jobs')"></script>
