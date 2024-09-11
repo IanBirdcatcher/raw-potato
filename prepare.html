@@ -1,28 +1,11 @@
-<head>
-    <title>Prepare Page</title>
-    <link href="style.css" rel="stylesheet">
-</head>
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Prepare Page</title>
+        <div id="navbar"></div>
+        <link href="/style.css" rel="stylesheet">
+    </head>
 <body>
-    <div class="topnav">
-    <a href="index.html">Home</a>
-    <div class="dropdown">
-        <a href="jobs.html" class="dropbtn">Jobs </a>
-        <div class="dropdown-content">
-        <a href="Jobs/softwareEngineer.html">Software Engineer</a>
-        <a href="Jobs/cybersecuritySpecialist.html">Cybersecurity Specialist</a>
-        <a href="Jobs/gameDeveloper.html">Game Developer</a>
-        <a href="Jobs/mobileAppDeveloper.html">Mobile App Developer</a>
-        </div><!-- 4 jobs-->
-
-    </div><!-- dropdown -->
-        <a href="learn.html">Learn</a>
-        <a class="active" href="prepare.html">Prepare</a>
-        <a href="why.html">Why</a>
-        <a href="csDescription.html">CS Description</a>
-    </div>
-
 
     <header>Prepare to be a Computer Science Major!</header>
     <p><center>Here are some helpful resources if you want to get a head start on being a computer science major:</center></p>
@@ -50,3 +33,5 @@
     </div>
 </body>
 </html>
+
+<script src="/nav.js" onload="setActive('Prepare')"></script>
