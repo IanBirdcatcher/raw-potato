@@ -204,3 +204,7 @@
     text-size-adjust: 20pt;
     text-align: center;
   }
+
+  p {
+    padding: 10px;
+  }
