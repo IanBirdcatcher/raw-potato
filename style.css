@@ -183,3 +183,19 @@
     text-size-adjust: 20pt;
     text-align: center;
   }
+  .job-card {
+    padding: 25px;
+    background-color: #920000;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    margin: 20px; 
+  }
+  .background-section {
+    background-image: url('https://keystoneacademic-res.cloudinary.com/image/upload/element/14/148661_148610_cover_photo.jpg');
+    background-size: auto,auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: white;
+  }
