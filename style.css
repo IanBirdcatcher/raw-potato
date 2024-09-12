@@ -2,8 +2,15 @@
     background-color: #333;
     overflow: hidden;
   }
-  * {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-  * {margin: 0;}
+
+  * {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  * {
+    margin: 0;
+  }
+
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -19,8 +26,8 @@
   }
 
   .topnav a.active {
-    background-color: #04AA6D; 
-    color: white; 
+    background-color: #04AA6D;
+    color: white;
   }
 
   .dropdown {
@@ -48,7 +55,7 @@
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
   }
 
@@ -67,18 +74,19 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+
   button.active {
     background-color: #04aa6d !important;
     color: white !important;
   }
+
   .infobox {
     background-color: #e1f0ea;
     font-size: small;
     border-radius: 25px;
-    padding: 20px; 
+    padding: 20px;
     width: 300px;
-    height: 200px; 
+    height: 200px;
     margin: 20px;
     line-height: 25px;
     text-align: center;
@@ -93,9 +101,9 @@
     background-color: #e1f0ea;
     font-size: small;
     border-radius: 25px;
-    padding: 20px; 
+    padding: 20px;
     width: 300px;
-    height: 450px; 
+    height: 450px;
     margin: 20px;
     line-height: 25px;
     text-align: center;
@@ -109,7 +117,7 @@
   }
 
   #specific-text {
-    color: white; 
+    color: white;
   }
 
   .center {
@@ -135,9 +143,21 @@
     background-color: #18b074;
     font-size: 13pt;
     border-radius: 25px;
-    padding: 20px; 
+    padding: 20px;
     width: 300px;
-    height: 100px; 
+    height: 100px;
+    margin: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .infoboxCyber {
+    background-color: #e1f0ea;
+    font-size: 13pt;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
     margin: 20px;
     line-height: 25px;
     text-align: center;
@@ -153,7 +173,6 @@
     line-height: 25px;
     text-align: center;
   }
-
   .centerMobile 
   {
     display: flex;
@@ -171,14 +190,14 @@
     padding: 20px; 
     width: 990px;
     height: 225px; 
+
     margin: 10px;
     line-height: 25px;
     text-align: center;
     text-emphasis-color: white;
   }
-  
-  .centerMobile 
-  {
+
+  .centerMobile {
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -187,17 +206,21 @@
     height: 200px;
   }
 
-  ul
-  {
+  ul {
     display: flex;
     justify-content: center;
   }
 
-  img
-  {
-    padding : 10px;
+  img {
+    padding: 10px;
   }
 
+
+  .homePage {
+    text-emphasis-color: red;
+    text-size-adjust: 20pt;
+    text-align: center;
+  }
   .homePage
   {
     text-emphasis-color: black;
@@ -223,3 +246,4 @@
     background-repeat: no-repeat;
     color: white;
   }
+
