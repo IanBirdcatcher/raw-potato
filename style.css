@@ -204,6 +204,10 @@
     text-size-adjust: 20pt;
     text-align: center;
   }
+
+  p {
+    padding: 10px;
+  }
   .job-card {
     padding: 25px;
     background-color: #920000;
