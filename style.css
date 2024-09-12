@@ -90,6 +90,19 @@
     justify-content: center;
   }
 
+  .infoboxPrepare {
+    background-color: #e1f0ea;
+    font-size: small;
+    border-radius: 25px;
+    padding: 20px; 
+    width: 300px;
+    height: 450px; 
+    margin: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
   header {
     padding: 15px;
     font-weight: bold;
@@ -175,4 +188,3 @@
     text-size-adjust: 20pt;
     text-align: center;
   }
-
