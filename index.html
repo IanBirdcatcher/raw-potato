@@ -1,25 +1,10 @@
 <head>
   <title>Home Page</title>
+  <div id="navbar"></div>
   <link href="style.css" rel="stylesheet">
 </head>
 <!DOCTYPE html>
 <body>
-  <div class="topnav">
-    <a class="active" href="index.html">Home</a>
-    <div class="dropdown">
-      <a href="jobs.html" class="dropbtn">Jobs </a>
-      <div class="dropdown-content">
-        <a href="Jobs/softwareEngineer.html">Software Engineer</a>
-        <a href="Jobs/cybersecuritySpecialist.html">Cybersecurity Specialist</a>
-        <a href="Jobs/gameDeveloper.html">Game Developer</a>
-        <a href="Jobs/mobileAppDeveloper.html">Mobile App Developer</a>
-      </div><!-- 4 jobs-->
-    </div><!-- dropdown -->
-    <a href="learn.html">Learn</a>
-    <a href="prepare.html">Prepare</a>
-    <a href="why.html">Why</a>
-  <a href="csDescription.html">CS Description</a>
-  </div>
 
 
   <h1><center>Oklahoma Christian University Computer Science Department</center></h1>
@@ -27,7 +12,7 @@
 
   <div class="infobox-inline">
     <div class="infoboxHome">
-      <p style ="color: white"> Oklahoma Christian University's Computer Science Department stands out for its commitment to academic excellence, innovation, and hands-on learning. 
+      <p style ="color: black"> Oklahoma Christian University's Computer Science Department stands out for its commitment to academic excellence, innovation, and hands-on learning. 
       With a strong focus on preparing students for real-world challenges, the department offers a comprehensive curriculum that blends theoretical foundations with practical application. 
       Students benefit from small class sizes, personalized instruction, and access to cutting-edge technology, including advanced labs and software tools. 
       The faculty, comprised of experienced professionals and scholars, are dedicated to mentoring students and fostering a collaborative learning environment. 
@@ -47,3 +32,5 @@
     </div>
 
 </body>
+
+<script src="nav.js" onload="setActive('Home')"></script>

@@ -1,8 +1,8 @@
   .topnav {
     background-color: #333;
     overflow: hidden;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+  * {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
   * {margin: 0;}
   .topnav a {
     float: left;
@@ -49,7 +49,7 @@
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    margin-top: 50px;
   }
 
   .dropdown-content a {
@@ -82,7 +82,6 @@
     margin: 20px;
     line-height: 25px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .infobox-inline {
@@ -90,10 +89,21 @@
     justify-content: center;
   }
 
+  .infoboxPrepare {
+    background-color: #e1f0ea;
+    font-size: small;
+    border-radius: 25px;
+    padding: 20px; 
+    width: 300px;
+    height: 450px; 
+    margin: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+
   header {
     padding: 15px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: x-large;
   }
@@ -111,7 +121,8 @@
     height: 400px;
   }
 
-  .profCenter {
+  .profCenter 
+  {
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -130,12 +141,31 @@
     margin: 20px;
     line-height: 25px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .infoboxGame {
+    background-color: #18b074;
+    font-size: 13pt;
+    border-radius: 25px;
+    padding: 25px; 
+    width: 300px;
+    height: 200px; 
+    margin: 20px;
+    line-height: 25px;
+    text-align: center;
   }
 
+  .centerMobile 
+  {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+  }
   .infoboxHome 
   {
-    background-color: red;
+    background-color: #18b074;
     font-size: 17pt;
     border-radius: 25px;
     padding: 20px; 
@@ -144,7 +174,6 @@
     margin: 10px;
     line-height: 25px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-emphasis-color: white;
   }
   
@@ -171,8 +200,7 @@
 
   .homePage
   {
-    text-emphasis-color: red;
+    text-emphasis-color: black;
     text-size-adjust: 20pt;
     text-align: center;
   }
-
