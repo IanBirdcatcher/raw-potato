@@ -5,7 +5,7 @@ function loadHtml() {
         '<a id="Home" href="index.html">Home</a>' +
         '<div class="dropdown"><a id="Jobs" href="jobs.html" class="dropbtn">Jobs</a>' +
             '<div class="dropdown-content"><a href="softwareEngineer.html">Software Engineer</a>' +
-            '<a href="cyberSecuritySpecialist.html">Cyber Security</a>' +
+            '<a href="cybersecuritySpecialist.html">Cyber Security</a>' +
             '<a href="gameDeveloper.html">Game Developer</a>' +
             '<a href="mobileAppDeveloper.html">Mobile App Developer</a>' +
             '</div>' +
